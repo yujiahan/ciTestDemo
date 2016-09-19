@@ -1,0 +1,134 @@
+2016-09-19 16:25:51,670 - sauce_connect:558 - INFO - / Starting \
+2016-09-19 16:25:51,674 - sauce_connect:559 - INFO - Please wait for "You may start your tests" to start your tests.
+2016-09-19 16:25:51,681 - sauce_connect:571 - DEBUG - System is 8.0 hours off UTC
+2016-09-19 16:25:51,683 - sauce_connect:573 - DEBUG - options: {'allow_unclean_exit': False, 'tunnel_identifier': '243505544', 'use_ssh_config': False, 'ssh_port': 443, 'logfile': 'sauce_connect.log', 'boost_mode': True, 'debug_ssh': False, 'ssh': False, 'domains': None, 'ports': ['65281'], 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'squid_opts': '', 'readyfile': None, 'tunnel_ports': ['80'], 'fast_fail_regexps': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'se_port': '4445', 'shared_tunnel': False, 'user': 'hanluyuzizi'}
+2016-09-19 16:25:51,684 - sauce_connect:574 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 42, 'OwnerPorts': ['65281'], 'Build': '42', 'ScriptName': 'sauce_connect', 'Release': '3.0-r27'}
+2016-09-19 16:25:51,686 - sauce_connect:576 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['65281']
+2016-09-19 16:25:51,697 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:65281 in 6ms
+2016-09-19 16:25:51,908 - sauce_connect:238 - INFO - {"tunnel_identifier":"243505544","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":42,"OwnerPorts":["65281"],"Build":"42","ScriptName":"sauce_connect","Release":"3.0-r27"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"use_kgp":true,"domain_names":[],"direct_domains":null,"fast_fail_regexps":null,"shared_tunnel":false}
+2016-09-19 16:25:55,953 - sauce_connect:250 - INFO - Tunnel remote VM is provisioned (8629d2e878544313b4235f8017f58f3a)
+2016-09-19 16:25:56,266 - sauce_connect:268 - INFO - Tunnel remote VM is booting ..
+2016-09-19 16:26:02,707 - sauce_connect:272 - INFO - Tunnel remote VM is running at maki78090.miso.saucelabs.com
+2016-09-19 16:26:02,726 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:65281 in 0ms
+2016-09-19 16:26:02,730 - sauce_connect:646 - INFO - Starting connection to tunnel host...
+2016-09-19 16:26:02,730 - sauce_connect:646 - INFO - Connecting to tunnel host maki78090.miso.saucelabs.com as hanluyuzizi
+2016-09-19 16:26:02,848 - sauce_connect:646 - INFO - Forwarding Selenium with ephemeral port 65286
+2016-09-19 16:26:02,854 - sauce_connect:646 - INFO - Selenium HTTP proxy listening on port 4445
+2016-09-19 16:26:03,670 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2016-09-19 16:26:03,674 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: c2dabe596f12494bb9d1bdb2439510f8
+2016-09-19 16:26:03,677 - sauce_connect:646 - INFO - Connected! You may start your tests.
+2016-09-19 16:26:11,799 - sauce_connect:0 - INFO - Request started: GET http://localhost:3619/
+2016-09-19 16:26:11,812 - sauce_connect:0 - INFO - Could not proxy http://localhost:3619/, exception: java.net.ConnectException: Connection refused
+2016-09-19 16:26:13,309 - sauce_connect:0 - INFO - received SIGTERM
+2016-09-19 16:28:13,848 - sauce_connect:558 - INFO - / Starting \
+2016-09-19 16:28:13,852 - sauce_connect:559 - INFO - Please wait for "You may start your tests" to start your tests.
+2016-09-19 16:28:13,858 - sauce_connect:571 - DEBUG - System is 8.0 hours off UTC
+2016-09-19 16:28:13,859 - sauce_connect:573 - DEBUG - options: {'allow_unclean_exit': False, 'tunnel_identifier': '243505611', 'use_ssh_config': False, 'ssh_port': 443, 'logfile': 'sauce_connect.log', 'boost_mode': True, 'debug_ssh': False, 'ssh': False, 'domains': None, 'ports': ['65451'], 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'squid_opts': '', 'readyfile': None, 'tunnel_ports': ['80'], 'fast_fail_regexps': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'se_port': '4445', 'shared_tunnel': False, 'user': 'hanluyuzizi'}
+2016-09-19 16:28:13,861 - sauce_connect:574 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 42, 'OwnerPorts': ['65451'], 'Build': '42', 'ScriptName': 'sauce_connect', 'Release': '3.0-r27'}
+2016-09-19 16:28:13,862 - sauce_connect:576 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['65451']
+2016-09-19 16:28:13,875 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:65451 in 5ms
+2016-09-19 16:28:14,075 - sauce_connect:238 - INFO - {"tunnel_identifier":"243505611","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":42,"OwnerPorts":["65451"],"Build":"42","ScriptName":"sauce_connect","Release":"3.0-r27"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"use_kgp":true,"domain_names":[],"direct_domains":null,"fast_fail_regexps":null,"shared_tunnel":false}
+2016-09-19 16:28:18,904 - sauce_connect:250 - INFO - Tunnel remote VM is provisioned (de731ec0387d445b905a527fd91bbb82)
+2016-09-19 16:28:19,114 - sauce_connect:268 - INFO - Tunnel remote VM is booting ..
+2016-09-19 16:28:31,915 - sauce_connect:272 - INFO - Tunnel remote VM is running at maki77217.miso.saucelabs.com
+2016-09-19 16:28:31,927 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:65451 in 0ms
+2016-09-19 16:28:31,930 - sauce_connect:646 - INFO - Starting connection to tunnel host...
+2016-09-19 16:28:31,930 - sauce_connect:646 - INFO - Connecting to tunnel host maki77217.miso.saucelabs.com as hanluyuzizi
+2016-09-19 16:28:32,007 - sauce_connect:646 - INFO - Forwarding Selenium with ephemeral port 65455
+2016-09-19 16:28:32,013 - sauce_connect:646 - INFO - Selenium HTTP proxy listening on port 4445
+2016-09-19 16:28:32,752 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2016-09-19 16:28:32,756 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 31ea4e59834c4be096fcc1e4040db61c
+2016-09-19 16:28:32,759 - sauce_connect:646 - INFO - Connected! You may start your tests.
+2016-09-19 16:28:39,834 - sauce_connect:0 - INFO - Request started: GET http://localhost:45012/
+2016-09-19 16:28:39,844 - sauce_connect:0 - INFO - Could not proxy http://localhost:45012/, exception: java.net.ConnectException: Connection refused
+2016-09-19 16:28:41,288 - sauce_connect:0 - INFO - received SIGTERM
+2016-09-19 16:49:58,882 - sauce_connect:558 - INFO - / Starting \
+2016-09-19 16:49:58,888 - sauce_connect:559 - INFO - Please wait for "You may start your tests" to start your tests.
+2016-09-19 16:49:58,895 - sauce_connect:571 - DEBUG - System is 8.0 hours off UTC
+2016-09-19 16:49:58,897 - sauce_connect:573 - DEBUG - options: {'allow_unclean_exit': False, 'tunnel_identifier': '243506992', 'use_ssh_config': False, 'ssh_port': 443, 'logfile': 'sauce_connect.log', 'boost_mode': True, 'debug_ssh': False, 'ssh': False, 'domains': None, 'ports': ['49707'], 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'squid_opts': '', 'readyfile': None, 'tunnel_ports': ['80'], 'fast_fail_regexps': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'se_port': '4445', 'shared_tunnel': False, 'user': 'hanluyuzizi'}
+2016-09-19 16:49:58,898 - sauce_connect:574 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 42, 'OwnerPorts': ['49707'], 'Build': '42', 'ScriptName': 'sauce_connect', 'Release': '3.0-r27'}
+2016-09-19 16:49:58,898 - sauce_connect:576 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['49707']
+2016-09-19 16:49:58,908 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:49707 in 6ms
+2016-09-19 16:49:59,095 - sauce_connect:238 - INFO - {"tunnel_identifier":"243506992","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":42,"OwnerPorts":["49707"],"Build":"42","ScriptName":"sauce_connect","Release":"3.0-r27"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"use_kgp":true,"domain_names":[],"direct_domains":null,"fast_fail_regexps":null,"shared_tunnel":false}
+2016-09-19 16:50:03,778 - sauce_connect:250 - INFO - Tunnel remote VM is provisioned (05234748d498476484bbee8fb78720f9)
+2016-09-19 16:50:03,956 - sauce_connect:268 - INFO - Tunnel remote VM is booting ..
+2016-09-19 16:50:16,691 - sauce_connect:272 - INFO - Tunnel remote VM is running at maki78173.miso.saucelabs.com
+2016-09-19 16:50:16,707 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:49707 in 0ms
+2016-09-19 16:50:16,710 - sauce_connect:646 - INFO - Starting connection to tunnel host...
+2016-09-19 16:50:16,710 - sauce_connect:646 - INFO - Connecting to tunnel host maki78173.miso.saucelabs.com as hanluyuzizi
+2016-09-19 16:50:16,822 - sauce_connect:646 - INFO - Forwarding Selenium with ephemeral port 49720
+2016-09-19 16:50:16,826 - sauce_connect:646 - INFO - Selenium HTTP proxy listening on port 4445
+2016-09-19 16:50:25,611 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2016-09-19 16:50:25,617 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: f47c85d82258495885d92b50b802e80d
+2016-09-19 16:50:25,618 - sauce_connect:646 - INFO - Connected! You may start your tests.
+2016-09-19 16:50:32,114 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 0/5 acks, 5338ms since last recv, 5000ms timeout exceeded, min ack: 5000
+2016-09-19 16:50:32,117 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2016-09-19 16:50:32,118 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2016-09-19 16:50:43,201 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2016-09-19 16:50:43,204 - sauce_connect:0 - INFO - Connection failed
+2016-09-19 16:51:43,875 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2016-09-19 16:51:43,877 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: f47c85d82258495885d92b50b802e80d
+2016-09-19 16:51:43,877 - sauce_connect:0 - INFO - resending 1 packets
+2016-09-19 16:51:44,505 - sauce_connect:0 - INFO - Request started: GET http://localhost:4179/
+2016-09-19 16:51:44,505 - sauce_connect:0 - INFO - Request started: GET http://localhost:23424/
+2016-09-19 16:51:44,517 - sauce_connect:0 - INFO - Could not proxy http://localhost:23424/, exception: java.net.ConnectException: Connection refused
+2016-09-19 16:51:44,517 - sauce_connect:0 - INFO - Could not proxy http://localhost:4179/, exception: java.net.ConnectException: Connection refused
+2016-09-19 16:51:50,378 - sauce_connect:0 - INFO - Sauce Connect connection stalled! 0/5 acks, 5890ms since last recv, 5000ms timeout exceeded, min ack: 5000
+2016-09-19 16:51:50,381 - sauce_connect:0 - INFO - disconnected from Sauce Connect server
+2016-09-19 16:51:50,381 - sauce_connect:0 - INFO - connection to Sauce Connect server closed
+2016-09-19 16:51:54,371 - sauce_connect:0 - INFO - received SIGINT
+2016-09-19 16:56:17,476 - sauce_connect:558 - INFO - / Starting \
+2016-09-19 16:56:17,480 - sauce_connect:559 - INFO - Please wait for "You may start your tests" to start your tests.
+2016-09-19 16:56:17,490 - sauce_connect:571 - DEBUG - System is 8.0 hours off UTC
+2016-09-19 16:56:17,490 - sauce_connect:573 - DEBUG - options: {'allow_unclean_exit': False, 'tunnel_identifier': '243507371', 'use_ssh_config': False, 'ssh_port': 443, 'logfile': 'sauce_connect.log', 'boost_mode': True, 'debug_ssh': False, 'ssh': False, 'domains': None, 'ports': ['50046'], 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'squid_opts': '', 'readyfile': None, 'tunnel_ports': ['80'], 'fast_fail_regexps': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'se_port': '4445', 'shared_tunnel': False, 'user': 'hanluyuzizi'}
+2016-09-19 16:56:17,492 - sauce_connect:574 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 42, 'OwnerPorts': ['50046'], 'Build': '42', 'ScriptName': 'sauce_connect', 'Release': '3.0-r27'}
+2016-09-19 16:56:17,492 - sauce_connect:576 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['50046']
+2016-09-19 16:56:17,503 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:50046 in 4ms
+2016-09-19 16:56:17,697 - sauce_connect:238 - INFO - {"tunnel_identifier":"243507371","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":42,"OwnerPorts":["50046"],"Build":"42","ScriptName":"sauce_connect","Release":"3.0-r27"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"use_kgp":true,"domain_names":[],"direct_domains":null,"fast_fail_regexps":null,"shared_tunnel":false}
+2016-09-19 16:56:21,625 - sauce_connect:250 - INFO - Tunnel remote VM is provisioned (64e2bd57df8742fd9df07880ff6f672d)
+2016-09-19 16:56:21,809 - sauce_connect:268 - INFO - Tunnel remote VM is booting ..
+2016-09-19 16:56:31,344 - sauce_connect:272 - INFO - Tunnel remote VM is running at maki77176.miso.saucelabs.com
+2016-09-19 16:56:31,355 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:50046 in 0ms
+2016-09-19 16:56:31,358 - sauce_connect:646 - INFO - Starting connection to tunnel host...
+2016-09-19 16:56:31,358 - sauce_connect:646 - INFO - Connecting to tunnel host maki77176.miso.saucelabs.com as hanluyuzizi
+2016-09-19 16:56:31,436 - sauce_connect:646 - INFO - Forwarding Selenium with ephemeral port 50049
+2016-09-19 16:56:31,440 - sauce_connect:646 - INFO - Selenium HTTP proxy listening on port 4445
+2016-09-19 16:56:36,276 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2016-09-19 16:56:36,280 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: aafdd9cacb864819b9ebdc4665d64d32
+2016-09-19 16:56:36,283 - sauce_connect:646 - INFO - Connected! You may start your tests.
+2016-09-19 16:56:42,923 - sauce_connect:0 - INFO - Request started: GET http://localhost:16128/
+2016-09-19 16:56:42,933 - sauce_connect:0 - INFO - Could not proxy http://localhost:16128/, exception: java.net.ConnectException: Connection refused
+2016-09-19 16:56:45,657 - sauce_connect:0 - INFO - received SIGTERM
+2016-09-19 17:00:41,788 - sauce_connect:558 - INFO - / Starting \
+2016-09-19 17:00:41,790 - sauce_connect:559 - INFO - Please wait for "You may start your tests" to start your tests.
+2016-09-19 17:00:41,799 - sauce_connect:571 - DEBUG - System is 8.0 hours off UTC
+2016-09-19 17:00:41,799 - sauce_connect:573 - DEBUG - options: {'allow_unclean_exit': False, 'tunnel_identifier': '243507635', 'use_ssh_config': False, 'ssh_port': 443, 'logfile': 'sauce_connect.log', 'boost_mode': True, 'debug_ssh': False, 'ssh': False, 'domains': None, 'ports': ['50358'], 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'squid_opts': '', 'readyfile': None, 'tunnel_ports': ['80'], 'fast_fail_regexps': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'se_port': '4445', 'shared_tunnel': False, 'user': 'hanluyuzizi'}
+2016-09-19 17:00:41,801 - sauce_connect:574 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 42, 'OwnerPorts': ['50358'], 'Build': '42', 'ScriptName': 'sauce_connect', 'Release': '3.0-r27'}
+2016-09-19 17:00:41,802 - sauce_connect:576 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['50358']
+2016-09-19 17:00:41,812 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:50358 in 5ms
+2016-09-19 17:00:41,992 - sauce_connect:238 - INFO - {"tunnel_identifier":"243507635","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":42,"OwnerPorts":["50358"],"Build":"42","ScriptName":"sauce_connect","Release":"3.0-r27"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"use_kgp":true,"domain_names":[],"direct_domains":null,"fast_fail_regexps":null,"shared_tunnel":false}
+2016-09-19 17:00:46,811 - sauce_connect:250 - INFO - Tunnel remote VM is provisioned (d7b61b092ed1478ba9d04ef2ea6d7fb1)
+2016-09-19 17:00:46,996 - sauce_connect:268 - INFO - Tunnel remote VM is booting ..
+2016-09-19 17:03:07,943 - sauce_connect:0 - INFO - received SIGINT
+2016-09-19 17:03:28,288 - sauce_connect:558 - INFO - / Starting \
+2016-09-19 17:03:28,290 - sauce_connect:559 - INFO - Please wait for "You may start your tests" to start your tests.
+2016-09-19 17:03:28,296 - sauce_connect:571 - DEBUG - System is 8.0 hours off UTC
+2016-09-19 17:03:28,296 - sauce_connect:573 - DEBUG - options: {'allow_unclean_exit': False, 'tunnel_identifier': '243507801', 'use_ssh_config': False, 'ssh_port': 443, 'logfile': 'sauce_connect.log', 'boost_mode': True, 'debug_ssh': False, 'ssh': False, 'domains': None, 'ports': ['50583'], 'rest_url': 'https://saucelabs.com/rest/v1', 'direct_domains': '', 'squid_opts': '', 'readyfile': None, 'tunnel_ports': ['80'], 'fast_fail_regexps': '', 'host': '127.0.0.1', 'latency_log': 150, 'quiet': False, 'se_port': '4445', 'shared_tunnel': False, 'user': 'hanluyuzizi'}
+2016-09-19 17:03:28,298 - sauce_connect:574 - DEBUG - metadata: {'OwnerHost': '127.0.0.1', 'Platform': 'Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64', 'PythonVersion': '2.5.1', 'Ports': ['80'], 'ScriptRelease': 42, 'OwnerPorts': ['50583'], 'Build': '42', 'ScriptName': 'sauce_connect', 'Release': '3.0-r27'}
+2016-09-19 17:03:28,299 - sauce_connect:576 - INFO - Forwarding: None:['80'] -> 127.0.0.1:['50583']
+2016-09-19 17:03:28,309 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:50583 in 4ms
+2016-09-19 17:03:28,509 - sauce_connect:238 - INFO - {"tunnel_identifier":"243507801","metadata":{"OwnerHost":"127.0.0.1","Platform":"Java-1.8.0_101-Java_HotSpot-TM-_64-Bit_Server_VM,_25.101-b13,_Oracle_Corporation-on-Mac_OS_X-10.11.4-x86_64","PythonVersion":"2.5.1","Ports":["80"],"ScriptRelease":42,"OwnerPorts":["50583"],"Build":"42","ScriptName":"sauce_connect","Release":"3.0-r27"},"ssh_port":443,"squid_config":null,"use_caching_proxy":true,"use_kgp":true,"domain_names":[],"direct_domains":null,"fast_fail_regexps":null,"shared_tunnel":false}
+2016-09-19 17:03:35,901 - sauce_connect:250 - INFO - Tunnel remote VM is provisioned (b99daa41fc394f3b8d5f2061f2799e13)
+2016-09-19 17:03:36,078 - sauce_connect:268 - INFO - Tunnel remote VM is booting ..
+2016-09-19 17:03:52,012 - sauce_connect:272 - INFO - Tunnel remote VM is running at maki79192.miso.saucelabs.com
+2016-09-19 17:03:52,025 - sauce_connect:375 - INFO - Succesfully connected to local server 127.0.0.1:50583 in 1ms
+2016-09-19 17:03:52,029 - sauce_connect:646 - INFO - Starting connection to tunnel host...
+2016-09-19 17:03:52,029 - sauce_connect:646 - INFO - Connecting to tunnel host maki79192.miso.saucelabs.com as hanluyuzizi
+2016-09-19 17:03:52,108 - sauce_connect:646 - INFO - Forwarding Selenium with ephemeral port 50598
+2016-09-19 17:03:52,115 - sauce_connect:646 - INFO - Selenium HTTP proxy listening on port 4445
+2016-09-19 17:03:52,937 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2016-09-19 17:03:52,944 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 08095042994c46dcaeb6201ccbe2dbad
+2016-09-19 17:03:52,947 - sauce_connect:646 - INFO - Connected! You may start your tests.
+2016-09-19 17:03:59,384 - sauce_connect:0 - INFO - Request started: GET http://localhost:45899/
+2016-09-19 17:03:59,394 - sauce_connect:0 - INFO - Could not proxy http://localhost:45899/, exception: java.net.ConnectException: Connection refused
+2016-09-19 17:04:00,795 - sauce_connect:0 - INFO - received SIGTERM
