@@ -26,7 +26,7 @@ describe("Cow", function() {
 
         it("should greet passed target", function() {
             var greetings = (new Cow("Kate")).greets("Baby");
-            expect(greetings).to.equal("Kate greets Baby");
+            expect(greetings).to.equal("sKate greets Baby");
         });
     });
 });
