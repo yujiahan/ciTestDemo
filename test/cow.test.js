@@ -1,6 +1,5 @@
 require("mocha");
 var expect = require("chai").expect;
-
 var Cow = require("../component/cow.js");
 
 describe("Cow", function() {
@@ -12,7 +11,6 @@ describe("Cow", function() {
 
         it("should set cow's name if provided", function() {
             var cow = new Cow("Kate");
-            console.log(cow.name);
             expect(cow.name).to.equal("Kate");
         });
     });
@@ -26,7 +24,7 @@ describe("Cow", function() {
 
         it("should greet passed target", function() {
             var greetings = (new Cow("Kate")).greets("Baby");
-            expect(greetings).to.equal("sKate greets Baby");
+            expect(greetings).to.equal("Kate greets Baby");
         });
     });
 });
