@@ -9,7 +9,7 @@ describe("Cow", function() {
             expect(cow.name).to.equal("Anon cow");
         });
 
-        it("should set cow's name if provided", function() {
+        it("should set cow's name if providesd", function() {
             var cow = new Cow("Kate");
             expect(cow.name).to.equal("Kate");
         });
