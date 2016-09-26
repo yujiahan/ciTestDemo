@@ -16,7 +16,7 @@ describe("Cow", function() {
     });
 
     describe("#greets", function() {
-        it("should throw if no target is passed in", function() {
+        it("should throw if no target is dpassed in", function() {
             expect(function() {
                 (new Cow()).greets();
             }).to.throw(Error);
